@@ -802,7 +802,7 @@ ul {
 
 .project-tabs-button {
   position: relative;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
   outline: none;
   background-color: white;
@@ -819,6 +819,138 @@ ul {
 
 .project-tabs-content.tab-active {
   display: block;
+}
+
+.project-tabs-pagination {
+  margin-top: 5vh;
+}
+
+.project-tabs-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2vh;
+  padding: 10px;
+}
+
+.project-tabs-link {
+  font-size: 20px;
+  color: #2b2a29;
+}
+
+.news-text {
+  padding: 20px;
+}
+
+.news-text-heading {
+  text-transform: capitalize;
+  font-weight: 700;
+  position: relative;
+}
+
+.news-text-heading:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #00a0e3;
+}
+
+.news-text-content {
+  display: none;
+}
+
+.news-text-content.visible-text {
+  display: block;
+}
+
+.news-text-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: 10vh auto 0;
+}
+
+.news-text-button {
+  padding: 10px 25px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 18px;
+}
+
+.news-text-button.news-bg-color {
+  background-color: red;
+}
+
+.news-text-link {
+  color: #2b2a29;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.news-text-big,
+.more-link {
+  text-transform: uppercase;
+}
+
+.news-text-img {
+  width: 100%;
+  height: auto;
+}
+
+.news-text-article {
+  width: 70%;
+  text-align: left;
+  margin: 10vh auto 0;
+}
+
+.news-text-figcaption {
+  margin-top: 5vh;
+}
+
+.contacts-body {
+  padding: 10px;
+}
+
+.contacts-body-heading {
+  font-size: 30px;
+  font-weight: 800;
+  position: relative;
+}
+
+.contacts-body-heading:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #00a0e3;
+}
+
+.contacts-body-contacts {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-body-contacts > * {
+  margin-top: 5px;
+}
+
+.contacts-body-link {
+  color: #2b2a29;
+  text-decoration: none;
+  transition: .5s ease-in;
+}
+
+.contacts-body-link:hover {
+  color: #00a0e3;
+}
+
+.contacts-body-map {
+  margin-top: 5vh;
 }
 
 @media screen and (min-width: 36rem) {
